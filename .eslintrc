@@ -1,0 +1,17 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ], 
+  "ignorePatterns": ["**/*.tests.ts"],
+  "rules": {
+    "indent": ["error", 2],
+    "quotes": [2, "single", { "avoidEscape": true }],
+    "semi": ["error", "never"],
+    "no-tabs": 0
+  }
+}
